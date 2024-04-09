@@ -1,0 +1,125 @@
+body
+{
+    background-color: rgba(255, 192, 203, 0.699);
+    margin: 0px;
+    padding: 0px;
+}
+
+header
+{
+    background-color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+header a
+{
+    color: gray;
+}
+
+header a:hover
+{
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.line
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.github
+{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.github button
+{
+    background-image: linear-gradient(to right, black, gray);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.github button:hover
+{
+    background-image: linear-gradient(to right, gray, black);
+}
+
+.collors
+{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.collors button
+{
+    background-image: linear-gradient(to right, lightblue, cyan);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.collors button:hover
+{
+    background-image: linear-gradient(to right, cyan, lightblue);
+}
+
+.adobe-color
+{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.adobe-color button
+{
+    background-image: linear-gradient(to right, violet, cyan);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.adobe-color button:hover
+{
+    background-image: linear-gradient(to right, cyan, violet);
+}
+
+.adobe-color img
+{
+    border-radius: 10px;
+}
+
+button:hover
+{
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+a
+{
+    color: blue;
+}
+
+div
+{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
